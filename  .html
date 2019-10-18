@@ -1,0 +1,128 @@
+<!doctype html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!-- Consider adding an manifest.appcache: h5bp.com/d/Offline -->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+
+  <title></title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- CSS: implied media=all -->
+  <link rel="stylesheet" href="files/css/style.css">
+  <link rel="stylesheet" href="files/css/smoothDivScroll.css">
+  <!-- end CSS-->
+
+<style>
+@font-face {
+    font-family: 'ScalaItalic';
+    src: url('files/webfonts/scala-italic-webfont.eot');
+    src: url('files/webfonts/scala-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('files/webfonts/scala-italic-webfont.woff') format('woff'),
+         url('files/webfonts/scala-italic-webfont.ttf') format('truetype'),
+         url('files/webfonts/scala-italic-webfont.svg#ScalaItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ScalaRegular';
+    src: url('files/webfonts/scala-webfont.eot');
+    src: url('files/webfonts/scala-webfont.eot?#iefix') format('embedded-opentype'),
+         url('files/webfonts/scala-webfont.woff') format('woff'),
+         url('files/webfonts/scala-webfont.ttf') format('truetype'),
+         url('files/webfonts/scala-webfont.svg#ScalaRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+	background-color: #6c9ebf;
+}
+#intro {
+		background-color: #111;
+		color: #fff;
+		font: 24px/36px 'ScalaRegular';
+}
+#intro {
+	/*padding: 80px 0 70px 0;*/
+	padding: 100px 0 70px 0;
+}
+#intro p {
+	width: 760px; margin: 0 auto; padding: 0 0 1em 0; -webkit-font-smoothing: antialiased;
+}
+#intro p:last-child {
+	padding: 0;
+}
+#intro em {
+	font-family: ScalaItalic; font-style: normal!important;
+}
+#quotes {
+		background-color: #6c9ebf;
+		color: #000;
+		font: 20px/33px ScalaRegular;
+		padding: 60px 0;
+}
+#quotes p {
+	width: 760px; margin: 0 auto; padding: 0 0 1.5em 0;
+}
+#quotes em {
+	font-family: ScalaItalic; font-style: normal!important;
+}
+/*.quoteswrap {
+	width: 780px; margin: 0 auto; padding: 60px 0; clear:  both;
+}*/
+#container {
+	margin: 0;
+	padding: 0;
+}
+#main {
+	-webkit-hyphens: manual;
+}
+.group:after {
+        visibility: hidden;
+        display: block;
+        content: "";
+        clear: both;
+        height: 0;
+        }
+.bumpright {
+	margin-right: 40px!important;
+}
+.ref {
+	font-size: 16px;
+}
+
+</style>
+</head>
+
+<body>
+
+  <div id="container">
+  <div id="main" role="main">
+<div id="intro">
+<a href="files/clipping01.html" id="goleft">&nbsp;</a>
+<p>This site is a re-creation of <em>Re-Enacting Tragedies While My Parents Look On</em>, an internet-based project by Milutin Gubash, created in 2011 in Montreal with technical assistance by Benoit Pontbriand.</p><p>The original version of <em>Re-Enacting Tragedies While My Parents Look On</em> was commissioned by Greg Bellerby and David McWilliam with technical assistance by Deanne Achong at the Charles H. Scott Gallery in Vancouver for their <em>i-projects</em> initiative. That version was hosted on the <em>i-projects</em> site from 2003 to 2008.</p><p>While the design has been revamped, the content is the same in each version.</p>
+</p>
+<a href="files/photo01.html#middle" id="goright">&nbsp;</a>
+</div>
+<div id="quotes"><p><em>Re-Enacting Tragedies While My Parents Look On</em> is comprised of a series of newspaper stories collected by the artist from the Calgary Herald at the turn of the millenium. These articles describe brutal attacks, murders and horrific accidents, which turned out to be misleading stories, false reports, headlines devoid of content. It also features a series of panoramic photographs that were taken in the same sites as mentioned in the newspaper clippings, while the artist plays dead for an audience of his mother and father.</p></div>
+    </div>
+    <footer>
+
+    </footer>
+  </div> <!--! end of #container -->
+
+  <!-- JavaScript at the bottom for fast page loading -->
+
+  <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
+  <script src="files/js/libs/jquery-1.6.2.min.js"></script>
+  <script src="files/js/jquery-ui-1.8.16.custom.min.js"></script>
+</body>
+</html>
